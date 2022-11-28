@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #292B36;
+}
+.preto{
+    background-color: #292B36;
+    color: white;
+}
+.branco{
+    background-color: #1B1A1A;
+    color: white;
+    display: flex;
+    height: 360px;
+}
+.rosa{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    height: 360px;
+}
+.parte1{
+    display: flex;
+    justify-content: center;
+}
+.parte2{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+
+}
+.parte3{
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.parte4{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.parte5{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30px;
+}

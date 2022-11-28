@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #292B36;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  height: 500px;
+  width: 660px;
+  margin-top: 100px;
+  background-color: #BCB4C0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 62px;
+}
+h1{
+  font: italic 25px inter;
+  margin-bottom: 40px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+#nome{
+  height: 30px;
+  width: 249px;
+  border-radius: 7px;
+  padding-left: 7px;
+  border: none;
+}
+#email{
+  height: 30px;
+  width: 249px;
+  margin-top: 12px;
+  border-radius: 7px;
+  padding-left: 7px;
+  border: none;
+}
+#comentario{
+  height: 136px;
+  width: 249px;
+  margin-top: 12px;
+  border-radius: 7px;
+  padding-left: 7px;
+  display: flex;
+  align-items: flex-start;
+  border: none;
+}
+#spt{
+  height: 30px;
+  width: 249px;
+  margin-top: 12px;
+  border-radius: 7px;
+  border: none;
+}
+#spt:hover{
+  background-color: rgb(191, 246, 175);
+}
